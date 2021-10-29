@@ -1,8 +1,8 @@
 const express = require('express')
-const login = require('./loginRoute')
+const logins = require('./loginRoute')
 
 module.exports = app => {
     app.use(express.json())
-    app.use(login)
+    app.use(logins)
 
 }
